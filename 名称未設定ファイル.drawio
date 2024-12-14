@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1222" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1059" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -25,8 +25,23 @@
         <mxCell id="ANFbqaorEE16aVfxFsnP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ANFbqaorEE16aVfxFsnP-8" target="ANFbqaorEE16aVfxFsnP-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ANFbqaorEE16aVfxFsnP-41" value="0が押された" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ANFbqaorEE16aVfxFsnP-26">
+          <mxGeometry x="-0.2711" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ANFbqaorEE16aVfxFsnP-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ANFbqaorEE16aVfxFsnP-8" target="ANFbqaorEE16aVfxFsnP-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ANFbqaorEE16aVfxFsnP-40" value="0以外" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ANFbqaorEE16aVfxFsnP-36">
+          <mxGeometry x="0.0043" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ANFbqaorEE16aVfxFsnP-42" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ANFbqaorEE16aVfxFsnP-36">
+          <mxGeometry x="0.0644" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ANFbqaorEE16aVfxFsnP-8" value="1６キーパッドの入力待ち&lt;div&gt;kypd_scana()&lt;/div&gt;&lt;div&gt;kypd_scanb()&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="93.75" y="300" width="250" height="100" as="geometry" />
@@ -35,7 +50,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ANFbqaorEE16aVfxFsnP-12" value="プレイヤーを下へ移動&lt;div&gt;player1_move()&lt;/div&gt;&lt;div&gt;player2_move()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="138.75" y="420" width="160" height="50" as="geometry" />
+          <mxGeometry x="137.5" y="440" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ANFbqaorEE16aVfxFsnP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ANFbqaorEE16aVfxFsnP-13" target="ANFbqaorEE16aVfxFsnP-15">
           <mxGeometry relative="1" as="geometry" />
